@@ -25,7 +25,10 @@
     "redux-logger": "^3.0.6",
     "styled-components": "^5.1.0",
     "superagent": "^5.2.2",
-    "superagent-promise": "^1.1.0"
+    "superagent-promise": "^1.1.0",
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
   },
   "scripts": {
     "start": "npm run build:css && react-scripts start",
@@ -49,9 +52,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "autoprefixer": "^9.8.0",
-    "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.6"
-  }
+  "devDependencies": {}
 }
