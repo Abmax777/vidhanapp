@@ -1,0 +1,5 @@
+export const ASYNC_START = 'ASYNC_START'
+export const ASYNC_END = 'ASYNC_END'
+export const GET_SUITS = 'GET_SUITS'
+export const GET_SUIT = 'GET_SUIT'
+export const GET_STATUTES = 'GET_STATUTES'

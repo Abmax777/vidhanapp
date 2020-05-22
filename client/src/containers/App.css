@@ -1,0 +1,9 @@
+.suit-card:hover {
+  cursor: pointer;
+}
+.react-daterange-picker__range-divider {
+  color: transparent;
+}
+.react-daterange-picker {
+  z-index: 5;
+}

@@ -1,0 +1,37 @@
+### Insert Suit
+POST http://localhost:4040/api/suits
+Content-Type: application/json
+
+{
+  "filename": "1971_S_1",
+  "id": "1971 Indlaw SC 797",
+  "priors": [
+    "1954_B_9"
+  ],
+  "statutes": [
+    "S_121838",
+    "S_121835",
+    "S_179622",
+    "S_179623"
+  ],
+  "title": "Major Som Nath v Union of India and Another",
+  "date": "25  May  1971",
+  "judge": " G. K. Jaganmohan Mitter, J.",
+  "sentences": [
+    {
+      "context": "This Appeal is by Special leave against the Judgment of the High Court of Punjab and Haryana confirming the conviction of the accused under Section 5(1)(c) of the Prevention of Corruption Act 1947 as also the sentence awarded by the Sessions Judge of one year's Rigorous Imprisonment and a fine of Rs",
+      "role": "Ratio of the decision"
+    },
+    {
+      "context": "2500, in default six months Rigorous Imprisonment",
+      "role": "Ratio of the decision"
+    }
+  ],
+  "summary": "Facts :: this appeal is by special leave against the judgment of the high court of punjab and haryana confirming the conviction of the accused. "
+}
+
+#### Get Suit[1,4]
+GET http://localhost:4040/api/suits?skip=1&limit=3
+
+#### Delete all Suits
+DELETE http://localhost:4040/api/suits
