@@ -2,8 +2,8 @@ const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
 
-const suitsDir = '/Users/nascarsayan/Code/web/vidhan/data/Cases_JSON'
-const statutesDir = '/Users/nascarsayan/Code/web/vidhan/data/Statutes_JSON'
+const suitsDir = '/home/nascarsayan/Code/web/vidhan/vidhan-sample-data/Cases_JSON'
+const statutesDir = '/home/nascarsayan/Code/web/vidhan/vidhan-sample-data/Statutes_JSON'
 
 const insert = async (dataDir, slug) => {
   let ok = 0
@@ -13,7 +13,7 @@ const insert = async (dataDir, slug) => {
     await Promise.all(
       fnames.map(async fname => {
         const data = JSON.parse(fs.readFileSync(path.join(dataDir, fname)))
-        const url = `http://localhost:4040/api/${slug}`
+        const url = `https://vidhan-hind.herokuapp.com/api/${slug}`
         try {
           const res = await axios.post(url, data, { proxy: false })
           if (res.status === 200) ok += 1
