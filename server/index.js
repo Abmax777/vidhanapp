@@ -14,7 +14,7 @@ Promise = require('bluebird') // eslint-disable-line no-global-assign
 mongoose.Promise = Promise
 
 // connect to mongo db
-const mongoUri = config.mongo.host
+// const mongoUri = config.mongo.host
 mongoose.set('useNewUrlParser', true)
 mongoose.set('useUnifiedTopology', true)
 mongoose.connect(mongoUri, { keepAlive: 1 })
