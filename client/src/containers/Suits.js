@@ -97,7 +97,7 @@ class Suits extends Component {
       onSearch,
     } = this
     return (
-      <Container>
+      <Container style={{backgroundColor: "beige"}}> 
         <div>
           <div>
             <div>
