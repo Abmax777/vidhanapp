@@ -61,7 +61,7 @@ class Suit extends Component {
     }
     return suit ? (
       <Container>
-        <Card className='my-4' bg='light' text='dark'>
+        <Card className='my-4' bg='beige' text='dark'>
           <Card.Header>Info</Card.Header>
           <Card.Body>
             <Card.Title>Document ID</Card.Title>
