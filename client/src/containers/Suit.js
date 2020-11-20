@@ -61,7 +61,7 @@ class Suit extends Component {
     }
     return suit ? (
       <Container>
-        <Card className='my-4' text='dark' style={{backgroundColor: "lightblue"}}>
+        <Card className='my-4' text='dark' style={{backgroundColor: "beige"}}>
           <Card.Header>Info</Card.Header>
           <Card.Body>
             <Card.Title>Document ID</Card.Title>
@@ -122,7 +122,7 @@ class Suit extends Component {
             </Card.Body>
           ) : null}
         </Card>
-        <Card border='primary'>
+        <Card border='primary' style={{backgroundColor: "bisque"}}>
           <Card.Header>Legal Text</Card.Header>
           <Card.Body>
             {suit.sentences.map((sent, idx) => (
@@ -148,7 +148,7 @@ class Suit extends Component {
             ))}
           </Card.Body>
         </Card>
-        <Card className='my-4' bg='light' text='dark'>
+        <Card className='my-4' text='dark' style={{backgroundColor: "blanchedalmond"}}>
           <Card.Header>Summary</Card.Header>
           <Card.Body>{suit.summary}</Card.Body>
         </Card>
