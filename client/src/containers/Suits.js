@@ -97,7 +97,7 @@ class Suits extends Component {
       onSearch,
     } = this
     return (
-      <Container style={{backgroundColor: "beige"}}> 
+      <div style={{backgroundColor: "beige"}}> 
         <div>
           <div>
             <div>
@@ -224,7 +224,7 @@ class Suits extends Component {
             </div>
           </div>
         </div>
-      </Container>
+      </div>
     )
   }
 }
