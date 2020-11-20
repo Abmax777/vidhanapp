@@ -122,7 +122,7 @@ class Suit extends Component {
             </Card.Body>
           ) : null}
         </Card>
-        <Card border='primary' style={{backgroundColor: "bisque"}}>
+        <Card border='primary'>
           <Card.Header>Legal Text</Card.Header>
           <Card.Body>
             {suit.sentences.map((sent, idx) => (
