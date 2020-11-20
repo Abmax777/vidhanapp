@@ -165,7 +165,7 @@ class Suits extends Component {
             <div className='flex justify-center' lg='2' sm='2'>
               <div className='mx-2'>
                 <Button
-                  variant='primary'
+                  variant='info'
                   type='submit'
                   onClick={() => onSearch(true)}
                 >
@@ -174,7 +174,7 @@ class Suits extends Component {
               </div>
               <div className='mx-2'>
                 <Button
-                  variant='primary'
+                  variant='info'
                   type='submit'
                   onClick={() => onSearch(false)}
                 >
@@ -199,7 +199,7 @@ class Suits extends Component {
               <CardColumns>
                 {suits.map((suit, idx) => (
                   <LinkContainer to={`/suits/${suit._id}`} key={`${idx}`}>
-                    <Card className={'suit-card'}>
+                    <Card className={'suit-card'} style={{backgroundColor: "cornsilk"}}>
                       <Card.Body>
                         <Card.Title className='text-base'>Doc ID</Card.Title>
                         <Card.Text className='text-lg'>{suit.docId}</Card.Text>
