@@ -14,7 +14,7 @@ function App() {
       <Container>
         <Row>
           <Col>
-            <Navbar bg='secondary' variant='dark' expand='lg'>
+            <Navbar bg='info' variant='dark' expand='lg'>
               <LinkContainer to='/'>
                 <Navbar.Brand>Vidhan</Navbar.Brand>
               </LinkContainer>
