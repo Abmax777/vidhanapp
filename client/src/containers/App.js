@@ -11,7 +11,7 @@ import '../styles/main.css'
 function App() {
   return (
     <div className={'App'}>
-      <Container>
+      <Container style={{backgroundColor: "beige"}}>
         <Row>
           <Col>
             <Navbar bg='info' variant='dark' expand='lg'>
